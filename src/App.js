@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './containers/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <header>
-        <h1>E-Com</h1>
+        <h1>e-Com</h1>
       </header>
-      
+      <Home />
     </div>
   );
 }
